@@ -101,4 +101,10 @@
 
     </PreferenceCategory>
 
+    <PreferenceScreen
+        android:fragment="org.cyanogenmod.cmparts.statusbar.NetworkTrafficSettings"
+        android:key="nettraffic_settings"
+        android:title="@string/nettraffic_settings_title"
+        android:summary="@string/nettraffic_settings_summary" />
+
 </PreferenceScreen>
